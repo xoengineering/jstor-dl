@@ -51,5 +51,6 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { File.basename it }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'http', '~> 6.0'
+  spec.add_dependency 'http',     '~> 6.0'
+  spec.add_dependency 'stringex', '~> 2.8'
 end

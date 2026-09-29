@@ -7,6 +7,7 @@ require_relative 'downloader/item_file'
 require_relative 'downloader/item_not_found'  # after error
 require_relative 'downloader/metadata'
 require_relative 'downloader/metadata_parser'
+require_relative 'downloader/slug'
 require_relative 'downloader/version'
 
 module Jstor
