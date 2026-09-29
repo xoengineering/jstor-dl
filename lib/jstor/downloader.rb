@@ -1,4 +1,5 @@
 require_relative 'downloader/author'
+require_relative 'downloader/bibtex'
 require_relative 'downloader/client'
 require_relative 'downloader/error'           # before errors below that subclass Error
 require_relative 'downloader/http_error'      # after error
