@@ -3,6 +3,7 @@ require_relative 'downloader/client'
 require_relative 'downloader/error'           # before errors below that subclass Error
 require_relative 'downloader/http_error'      # after error
 require_relative 'downloader/identifier'      # after error
+require_relative 'downloader/item_file'
 require_relative 'downloader/item_not_found'  # after error
 require_relative 'downloader/metadata'
 require_relative 'downloader/metadata_parser'
