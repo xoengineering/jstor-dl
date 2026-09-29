@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'jstor/downloader'
+
+exit Jstor::Downloader::CLI.new(ARGV).run

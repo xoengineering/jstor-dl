@@ -1,7 +1,11 @@
 module Jstor
   module Downloader
     class ItemNotFound < Error
-      def initialize message = 'not in the Early Journal Content on archive.org'
+      MESSAGE = <<~MESSAGE.chomp
+        not in the Early Journal Content on archive.org (JSTOR's terms allow only manual download from jstor.org)
+      MESSAGE
+
+      def initialize message = MESSAGE
         super
       end
     end
