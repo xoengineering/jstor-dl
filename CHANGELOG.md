@@ -1,4 +1,4 @@
-## [Unreleased]
+## [0.1.0]
 
 First version. Per-article offline archive of JSTOR's public-domain Early Journal Content, fetched only from the Internet Archive's copy, never from jstor.org.
 
