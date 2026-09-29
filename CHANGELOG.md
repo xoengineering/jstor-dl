@@ -1,3 +1,7 @@
+## [Unreleased]
+
+- Built on [dl-core](https://github.com/xoengineering/dl-core) 0.1: the HTTP client, errors, `Author`, `Slug`, sidecar writers, and CLI now come from it instead of copies. No change in behavior or output. `Jstor::Downloader::Client`, `HTTPError`, `Author`, `Slug`, and `Metadata::YAML`/`JSON` still work; they are now `dl-core`'s classes. `Jstor::Downloader::Error` now subclasses `DL::Core::Error`.
+
 ## [0.1.0]
 
 First version. Per-article offline archive of JSTOR's public-domain Early Journal Content, fetched only from the Internet Archive's copy, never from jstor.org.
