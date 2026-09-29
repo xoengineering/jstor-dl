@@ -1,3 +1,4 @@
+require_relative 'downloader/archive'
 require_relative 'downloader/author'
 require_relative 'downloader/bibtex'
 require_relative 'downloader/client'
