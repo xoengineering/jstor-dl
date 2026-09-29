@@ -1,0 +1,5 @@
+module Jstor
+  module Downloader
+    VERSION: String
+  end
+end
