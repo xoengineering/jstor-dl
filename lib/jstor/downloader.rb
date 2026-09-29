@@ -5,7 +5,9 @@ require_relative 'downloader/http_error'      # after error
 require_relative 'downloader/identifier'      # after error
 require_relative 'downloader/item_file'
 require_relative 'downloader/item_not_found'  # after error
-require_relative 'downloader/metadata'
+require_relative 'downloader/metadata'         # before metadata/*: they reopen class Metadata
+require_relative 'downloader/metadata/json'    # after metadata
+require_relative 'downloader/metadata/yaml'    # after metadata
 require_relative 'downloader/metadata_parser'
 require_relative 'downloader/path'
 require_relative 'downloader/slug'
